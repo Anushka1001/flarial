@@ -34,7 +34,7 @@ function Slideshow() {
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="8000">
             <img
-              src="slide1.png"
+              src="slide2.png"
               className="d-block w-100"
               style={{ height: "42.5em",}}
               alt="..."
@@ -49,7 +49,7 @@ function Slideshow() {
           </div>
           <div className="carousel-item" data-bs-interval="8000">
             <img
-              src="slide2.png"
+              src="slide1.png"
               className="d-block w-100"
               style={{ height: "42.5em" }}
               alt="..."
