@@ -5,7 +5,6 @@
 
 .structure {
     border: #474f53 solid 2px;
-    color: #ffffff;
 }
 
 .cursorPointer {
@@ -441,4 +440,183 @@
     cursor: none;
     user-select: none;
     pointer-events: none;
+}
+
+/* openings */
+
+.containerOpenings {
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+.jobCards {
+    margin: 5em 0;
+    border: 0.8px solid #58585873;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px -3px rgb(145, 145, 145);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.jobCards:hover {
+    transform: translateY(-2px);
+}
+
+.titleJob {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #043a77;
+    text-transform: capitalize;
+}
+
+.descJob {
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #585858;
+    word-wrap: break-word;
+}
+
+.locationJob {
+    display: flex;
+    color: #585858;
+    text-transform: capitalize;
+    font-family: 'Raleway';
+}
+
+.locationJob i{
+    color: #1067ca;
+    margin-right: 5px;
+}
+
+.payJob {
+    color: #585858;
+    font-family: 'Raleway';
+}
+
+.blockJob {
+    padding: 0 20px ;
+    width: fit-content;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.fullTime {
+    border: 1px solid #043a77;
+    background-color: #82a9d677;
+    color: #043a77;
+}
+
+.parttime {
+    border: 1px solid #cf4c00;
+    background-color: #cf4c003d;
+    color: #cf4c00;
+}
+
+.internship {
+    border: 1px solid #597c2a;
+    background-color: #82b44054;
+    color: #597c2a;
+}
+
+.experienceText {
+    font-size: 14px;
+    font-weight: 600;
+    color: #585858;
+    margin-right: 0.5em;
+}
+
+.experienceValue {
+    color: #222222;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.linkJob {
+    color: #043a77;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.linkJob:hover{
+    text-decoration: underline;
+}
+
+.skillsValue {
+    color: #585858;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+/* details */
+
+.containerBlock {
+    margin: 6em 0;
+    border: 0.8px solid #58585873;
+    padding: 20px 3em;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px -3px rgb(145, 145, 145);
+    color: #585858;
+}
+
+.openedonDate {
+    display: flex;
+
+    
+    justify-content: flex-end;
+    color: #585858aa;
+    font-weight: 700;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.openedonDate i {
+    color: #444444;
+    margin-right: 5px;
+}
+
+.expDetails {
+    font-size: 14px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.descDetails {
+    font-size: 14px;
+    max-width: 85%;
+    margin-bottom: 1em;
+}
+
+.descDetailsShort {
+    margin: 3em 0 1em 0;
+    font-weight: 600;
+    color: #253c57;
+    font-style: italic;
+}
+
+.otherDetails {
+    font-size: 14px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #0d4d96;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+.itemSkills {
+    color: #585858;
+    font-weight: 400;
+}
+
+.contactDesc {
+    color: #253c57;
+    font-size: 14px;
+    font-family:"raleway";
+    font-style: oblique;
+    word-spacing: 2px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
 }

@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import ContactForm from "./components/ContactForm";
 import NotFound from "./components/NotFound";
+import JobDetails from "./components/JobDetails";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact-us" element={<ContactForm />} />
           <Route path="/resume-making" element={<ContactForm />} />
+          <Route path="/job-details/:id" element={<JobDetails />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

@@ -40,18 +40,18 @@ function Services() {
     <div className="container-fluid">
       <div className="headingServices">our services</div>
       <div className="row m-0 p-4">
-        {cards.map((item) => (
-          <div className="col-md-3 p-2">
+        {cards.map((item, index) => (
+          <div className="col-md-3 p-2" key={index}>
             <div
-              class="card cardService text-center m-4 p-2"
+              className="card cardService text-center m-4 p-2"
               onClick={() => navigateToRoute(item.link)}
             >
-              <div class="card-body">
+              <div className="card-body">
                 <div className="cardIconService">
                   <i className={item.icon}></i>
                 </div>
-                <h5 class="card-title cardHeadingService">{item.heading}</h5>
-                <p class="card-text cardDescService">{item.desc}</p>
+                <h5 className="card-title cardHeadingService">{item.heading}</h5>
+                <p className="card-text cardDescService">{item.desc}</p>
               </div>
             </div>
           </div>

@@ -21,7 +21,7 @@ function Contact() {
           <div className='subText'>{subText}</div>
         </div>
         <div className='col-md-5 columnCall'>
-          <i class="bi bi-telephone "></i>
+          <i className="bi bi-telephone "></i>
           <div className='reachText'>{reachText}</div>
           <div className='contactNumbers'>+91 9718275759</div>
           <Button className='contactButton btn-grad' onClick={() => navigateToRoute("/contact-us")}>Contact Us</Button>

@@ -43,7 +43,6 @@ function FormForContact() {
   };
 
   return (
-    <div className="formContainer">
       <form className="row g-3" onSubmit={handleSubmit}>
         <div className="col-12">
           <label htmlFor="from_name" className="form-label">
@@ -87,7 +86,6 @@ function FormForContact() {
           </button>
         </div>
       </form>
-    </div>
   );
 }
 
