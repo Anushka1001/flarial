@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useNavigate } from "react-router-dom";
 import "../../Style.css";
+import "../../mediaQuery.css";
 import { Navbar } from "react-bootstrap";
 
 function NavbarHeader() {
@@ -49,7 +50,7 @@ function NavbarHeader() {
               </div>
             </NavDropdown>
         </Nav.Item>
-        <Nav.Item style={{marginRight: "2em"}}>
+        <Nav.Item style={{marginRight: "0em"}}>
           <Nav.Link onClick={() => navigateToRoute("/contact-us")} className="NavItem">Contact Us</Nav.Link>
         </Nav.Item>
       </Navbar>

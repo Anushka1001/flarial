@@ -412,6 +412,7 @@
 
 .aboutImageContainer {
     height: 80%;
+    width: -webkit-fill-available;
     animation: moveUpDown 3s ease-in-out infinite;
 }
 
@@ -545,6 +546,8 @@
 }
 
 .skillsValue {
+    display: flex;
+    flex-wrap: wrap;
     color: #585858;
     font-size: 14px;
     text-transform: capitalize;
@@ -597,6 +600,8 @@
 }
 
 .otherDetails {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 14px;
     align-items: center;
     margin-bottom: 10px;
@@ -609,6 +614,8 @@
 .itemSkills {
     color: #585858;
     font-weight: 400;
+    margin-left: 2px;
+    margin-right: 3px;
 }
 
 .contactDesc {

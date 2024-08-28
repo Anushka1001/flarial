@@ -1,0 +1,50 @@
+@media only screen and (max-width: 331px) {
+    .mediaquery{
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .custom-dropdown .dropdown-menu {
+        width: fit-content;
+        transform: translateX(-40%);
+    }
+    .formContainer {
+        margin: 0;
+    }
+    .accordianContainer {
+        width: 90%;
+    }
+    .aboutImageContainer{
+        padding-top: 20px;
+    }
+    .contactNumbers {
+        font-size: 1.3em;
+    }
+    .mainText{
+        font-size: 1.3em;
+    
+    }
+    .subText {
+    font-size: 16px;
+    margin: 20px 0em;
+    }
+    .contactButton {
+        font-size: 10px;
+    }
+    .cardService{
+        height: 20em;
+    }
+    .locationJob {
+        margin: 1em 0;
+    }
+    .payJob {
+        margin: 0 0 1em 0;
+    }
+    .linkJob {
+        padding: 1em 0;
+    }
+    .experienceValue {
+        margin-bottom: 10px;
+    }
+}

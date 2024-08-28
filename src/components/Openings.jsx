@@ -17,7 +17,7 @@ function Openings() {
       {jobs.map((item) => (
         <div className="row jobCards" key={item.id}>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 col-sm-12">
               <div className="row titleJob">{item.jobTitle}</div>
               <div className="row descJob">{item.jobDesc}</div>
             </div>
@@ -45,8 +45,8 @@ function Openings() {
             </div>
             <div className="col-md-5 m-0 p-0">
               <div className="experienceText">Skills</div>
-              <div className="skillsValue d-flex gap-2">{item.skillsMain.map((item, index) => (
-                <div key={index}>{item}</div>
+              <div className="skillsValue">{item.skillsMain.map((item, index) => (
+                <div key={index} style={{marginRight: "5px"}}>{item}{","}</div>
               ))}</div>
             </div>
             <div className="col-md-2 linkJob" onClick={() => navigateToRoute(`/job-details/${item.id}`)}>

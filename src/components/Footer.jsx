@@ -15,7 +15,7 @@ function Footer() {
     <>
       <div className="container-fluid containerFooter">
         <div className="row m-2 gap-5">
-          <div className="col-4 columnInfo">
+          <div className="col-md-4 columnInfo">
             <img
               src="logoWhite.png"
               alt="Flarial Infotech Pvt. Ltd."
@@ -38,7 +38,7 @@ function Footer() {
             <div className="taglineFooter">{Tagline}</div>
           </div>
 
-          <div className="col-3 midFooter">
+          <div className="col-md-3 midFooter">
             <div className="headingFooter">our services</div>
             <div
               className="footerItem cursorPointer"
@@ -66,7 +66,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="col-3 footerEnd">
+          <div className="col-md-3 footerEnd">
             <div className="headingFooter">Keep In Touch</div>
             <div className="row gap-2 footerItem2">
               <div className="col-1 iconItem">

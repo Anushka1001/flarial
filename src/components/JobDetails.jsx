@@ -42,7 +42,7 @@ function JobDetails() {
               </div>
               <div className="descDetails descDetailsShort">{job.jobDesc}</div>
               <div className="descDetails">{job.longDesc}</div>
-              <div className="otherDetails mt-5 d-flex gap-2">
+              <div className="otherDetails mt-5">
                 skill required:
                 {job.skillsTotal.map((item, index) => (
                   <div key={index} className="itemSkills">
@@ -51,14 +51,14 @@ function JobDetails() {
                   </div>
                 ))}
               </div>
-              <div className="otherDetails d-flex gap-2">
+              <div className="otherDetails">
                 expected salary:
                 <span className="itemSkills">
                   &#8377;{job.payInitial}
                   {job.payType === "fixed" ? "" : ` - ${job.payFinal}`} LPA
                 </span>
               </div>
-              <div className="otherDetails d-flex gap-2">
+              <div className="otherDetails">
                 location:
                 <span className="itemSkills">{job.jobLocation}</span>
               </div>
