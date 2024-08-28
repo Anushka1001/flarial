@@ -30,7 +30,7 @@ function NavbarHeader() {
                   <div className="nav-items" onClick={() => navigateToRoute("/job-openings")}>Financial and Banking</div>
                   <div className="nav-items" onClick={() => navigateToRoute("/job-openings")}>Healthcare</div>
                   <div className="nav-items" onClick={() => navigateToRoute("/job-openings")}>E-Commerce</div>
-                  <div className="nav-items" onClick={() => navigateToRoute("/job-openings")}>ED TECH</div>
+                  <div className="nav-items" onClick={() => navigateToRoute("/job-openings")}>Ed Tech</div>
                 </div>
                 <div className="col-md-3">
                   <div className="nav-items-heading">non-IT JOBS</div>
@@ -44,6 +44,7 @@ function NavbarHeader() {
                 <div className="col-md-3">
                   <div className="nav-items-heading">Other services</div>
                   <div className="nav-items" onClick={() => navigateToRoute("/job-openings")}>Resume Writing</div>
+                  <div className="nav-items" onClick={() => navigateToRoute("/job-openings")}>Cover Letter</div>
                 </div>
               </div>
             </NavDropdown>

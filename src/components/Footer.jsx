@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 function Footer() {
   const navigate = useNavigate();
   const Tagline = "Your Trusted Ally in Recruitment Success!";
+  const linkedin = 'https://www.linkedin.com/in/nirupama-km-708a46240';
+  const gmap = "https://www.google.com/maps?q=0014+Shorkha,+Sector-115,+GAUTAM+BUDDHA+NAGAR,+Noida+201304+,+UTTAR+PRADESH"
 
   function navigateToRoute(val) {
     navigate(val);
@@ -22,13 +24,13 @@ function Footer() {
             <div className="row justify-content-between mb-2">
               <div
                 className="col-2 iconItem cursorPointer"
-                onClick={() => console.log("open linkedin")}
+                onClick={() => window.open(linkedin, '_blank')}
               >
                 <i className="bi bi-linkedin h4"></i>
               </div>
               <div
                 className="col-2 iconItem cursorPointer"
-                onClick={() => console.log("open geomap")}
+                onClick={() => window.open(gmap, '_blank')}
               >
                 <i className="bi bi-geo-alt-fill h4"></i>
               </div>
@@ -40,7 +42,7 @@ function Footer() {
             <div className="headingFooter">our services</div>
             <div
               className="footerItem cursorPointer"
-              onClick={() => console.log("open resume writting")}
+              onClick={() => navigateToRoute("/job-openings")}
             >
               Resume Writting
             </div>
@@ -55,6 +57,12 @@ function Footer() {
               onClick={() => navigateToRoute("/job-openings")}
             >
               Non-IT Requirements
+            </div>
+            <div
+              className="footerItem cursorPointer"
+              onClick={() => navigateToRoute("/job-openings")}
+            >
+              Cover Letter
             </div>
           </div>
 
