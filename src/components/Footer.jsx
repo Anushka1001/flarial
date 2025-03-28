@@ -5,7 +5,8 @@ import { useNavigate } from "react-router-dom";
 function Footer() {
   const navigate = useNavigate();
   const Tagline = "Your Trusted Ally in Recruitment Success!";
-  const linkedin = 'https://www.linkedin.com/in/nirupama-km-708a46240';
+  const linkedin = 'https://www.linkedin.com/company/flarial-infotech-india/?viewAsMember=true';
+  const instagram = "https://www.instagram.com/flarial2024/?hl=en";
   const gmap = "https://www.google.com/maps?q=0014+Shorkha,+Sector-115,+GAUTAM+BUDDHA+NAGAR,+Noida+201304+,+UTTAR+PRADESH"
 
   function navigateToRoute(val) {
@@ -27,6 +28,12 @@ function Footer() {
                 onClick={() => window.open(linkedin, '_blank')}
               >
                 <i className="bi bi-linkedin h4"></i>
+              </div>
+              <div
+                className="col-2 iconItem cursorPointer"
+                onClick={() => window.open(instagram, '_blank')}
+              >
+                <i className="bi bi-instagram h4"></i>
               </div>
               <div
                 className="col-2 iconItem cursorPointer"
@@ -73,8 +80,7 @@ function Footer() {
                 <i className="bi bi-geo-alt-fill h5"></i>
               </div>
               <div className="col-10">
-                0014 Shorkha, Sector-115, GAUTAM BUDDHA NAGAR, Noida 201304 ,
-                UTTAR PRADESH
+                Noida, India
               </div>
             </div>
             <div className="row gap-2 footerItem2">
@@ -87,7 +93,7 @@ function Footer() {
               <div className="col-1 iconItem">
                 <i className="bi bi-telephone-fill"></i>
               </div>
-              <div className="col-10">+91 9718275759</div>
+              <div className="col-10">+91 8130882977</div>
             </div>
           </div>
         </div>
