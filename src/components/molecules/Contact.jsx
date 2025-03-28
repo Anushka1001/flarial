@@ -23,7 +23,7 @@ function Contact() {
         <div className='col-md-5 columnCall'>
           <i className="bi bi-telephone "></i>
           <div className='reachText'>{reachText}</div>
-          <div className='contactNumbers'>+91 9718275759</div>
+          <div className='contactNumbers'>+91 8130882977</div>
           <Button className='contactButton btn-grad' onClick={() => navigateToRoute("/contact-us")}>Contact Us</Button>
         </div>
       </div>
